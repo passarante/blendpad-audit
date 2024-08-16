@@ -33,6 +33,7 @@ export interface TokenDetails {
     website: string;
     wechat: string;
     whitepaper: string;
+    tokenType?: string
 }
 
 export interface PDFData {
